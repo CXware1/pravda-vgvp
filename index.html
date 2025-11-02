@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Правда о Visagino Gerosios Vilties progimnazijos</title>
+  <meta name="description" content="Независимый ученический сайт с честными историями и фактами о школьной жизни. Без бота, без цензуры — но с уважением.">
+  <style>
+    :root{
+      --bg:#0f1115; --card:#151922; --muted:#a9b0bd; --text:#e9edf3;
+      --brand:#7c9aff; --accent:#7effb2; --danger:#ff6b6b;
+      --radius:18px; --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Helvetica,Arial}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:linear-gradient(180deg,#0f1115 80%,rgba(15,17,21,0));z-index:50}
+    .nav{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--accent));display:grid;place-items:center;color:#0b0f14;font-weight:900;box-shadow:var(--shadow)}
+    .brand h1{margin:0;font-size:18px;letter-spacing:.2px}
+    .links{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 14px;border-radius:999px;background:#1c2230;border:1px solid #20283a;color:var(--text);box-shadow:var(--shadow);white-space:nowrap}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),#567dff);color:#0b0f14;font-weight:700}
+    .btn.ghost{background:transparent;border:1px solid #2b3346}
+
+    .hero{padding:28px 0 10px}
+    .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    .card{background:var(--card);border:1px solid #1f2533;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero .intro{padding:22px}
+    .hero h2{margin:0 0 10px;font-size:28px}
+    .hero p{margin:0 0 14px;color:var(--muted)}
+    .hero .badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .badge{padding:6px 10px;border-radius:999px;background:#1c2230;border:1px solid #273049;color:var(--muted);font-size:12px}
+    .hero .cta{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+
+    .hero .gallery{padding:12px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .grid img{width:100%;height:160px;object-fit:cover;border-radius:14px;border:1px solid #1f2533}
+
+    section{margin:26px 0}
+    .section-title{display:flex;align-items:center;gap:10px;margin:0 0 12px}
+    .dot{width:8px;height:8px;border-radius:999px;background:var(--accent);box-shadow:0 0 0 4px rgba(126,255,178,.12)}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .cards .card{padding:16px}
+    .muted{color:var(--muted)}
+    .story{position:relative;padding-left:16px}
+    .story:before{content:"\\201C";position:absolute;left:-6px;top:-6px;color:var(--accent);font-size:28px}
+    .tag{display:inline-block;margin-top:8px;font-size:12px;padding:4px 8px;border:1px solid #2a3246;border-radius:999px;color:var(--muted)}
+
+    .post{display:grid;grid-template-columns:auto 1fr;gap:12px}
+    .avatar{width:38px;height:38px;border-radius:50%;background:#22293a;border:1px solid #2a3246}
+    .title{margin:0 0 4px;font-size:18px}
+    .hr{height:1px;background:#1f2533;border:0;margin:26px 0}
+    footer{margin:40px 0 10px;color:var(--muted)}
+
+    @media (max-width:960px){ .hero .wrap{grid-template-columns:1fr} .cards{grid-template-columns:1fr 1fr} }
+    @media (max-width:640px){ .links{display:none} .cards{grid-template-columns:1fr} .grid{grid-template-columns:1fr 1fr} .grid img{height:120px} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">GV</div>
+        <h1>Правда о Visagino Gerosios Vilties progimnazijos</h1>
+      </div>
+      <nav class="links" aria-label="Навигация">
+        <a class="btn ghost" href="#about">О проекте</a>
+        <a class="btn ghost" href="#stories">Истории</a>
+        <a class="btn ghost" href="#gallery">Галерея</a>
+        <a class="btn ghost" href="#contacts">Контакты</a>
+        <a class="btn primary" href="#stories">Читать правду</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <div class="container hero">
+      <div class="wrap">
+        <div class="card intro">
+          <h2>Честные истории и жизнь школы — без фильтров и безопасно анонимно 💬</h2>
+          <p class="muted">Этот сайт создан учениками и выпускниками Visagino Gerosios Vilties progimnazijos. Мы делимся наблюдениями, фактами и личными историями. Нет места оскорблениям и буллингу — только уважение и конструктив.</p>
+          <div class="badges">
+            <span class="badge">Анонимность</span>
+            <span class="badge">Модерация без мата</span>
+            <span class="badge">Местное сообщество</span>
+          </div>
+          <div class="cta">
+            <a class="btn primary" href="#stories">💬 К ленте историй</a>
+            <a class="btn" href="#rules">📜 Правила</a>
+          </div>
+        </div>
+        <div class="card gallery">
+          <div class="grid">
+            <!-- можно заменить на свои фото -->
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop" alt="Коридор школы" />
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1200&auto=format&fit=crop" alt="Класс и парты" />
+            <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop" alt="Библиотека" />
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop" alt="Спортзал" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- О проекте -->
+    <section id="about" class="container">
+      <h3 class="section-title"><span class="dot"></span> О проекте</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Зачем это?</h4>
+          <p class="muted">Чтобы говорить честно и безопасно. Мы верим, что открытость помогает видеть проблемы и ценить хорошее: учителей, инициативы, победы.</p>
+        </article>
+        <article class="card">
+          <h4>Как публикуем?</h4>
+          <p class="muted">Истории отправляются редактору сайта и публикуются вручную. Личные данные и прямые оскорбления — не размещаем.</p>
+        </article>
+        <article class="card">
+          <h4>Как помочь?</h4>
+          <p class="muted">Присылай свои истории и фото на почту (см. контакты). Можно анонимно. Проверяй факты и уважай других.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Истории (лента) -->
+    <section id="stories" class="container">
+      <h3 class="section-title"><span class="dot"></span> Лента историй</h3>
+
+      <div class="card" style="padding:18px">
+        <div class="post">
+          <div class="avatar"></div>
+          <div>
+            <h4 class="title">«Музыка на истории — топ»</h4>
+            <p class="muted">Учитель включает музыку эпохи: барокко, джаз 40-х, рок-н-ролл. Уроки пролетают, и материал запоминается лучше.</p>
+            <span class="tag">позитив</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px;margin-top:14px">
+        <div class="post">
+          <div class="avatar"></div>
+          <div>
+            <h4 class="title">«Линии в столовой»</h4>
+            <p class="muted">В длинные перемены очередь до дверей. Может, стоит сделать два окна выдачи или предзаказ по классам?</p>
+            <span class="tag">предложение</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px;margin-top:14px">
+        <div class="post">
+          <div class="avatar"></div>
+          <div>
+            <h4 class="title">«День без домашки»</h4>
+            <p class="muted">Один раз в четверть провести неделю без домашних. Сфокусироваться на проектах и кружках — идея для дискуссии.</p>
+            <span class="tag">идея</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px;margin-top:14px">
+        <div class="post">
+          <div class="avatar"></div>
+          <div>
+            <h4 class="title">«Нашли и вернули»</h4>
+            <p class="muted">У спортзала нашли кошелёк — передали охране. Если потеряли — спросите на вахте. Хорошо, что у нас так делают.</p>
+            <span class="tag">факт</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="muted" style="margin-top:14px">Хочешь опубликовать историю? Смотри раздел «Контакты» ниже. Мы публикуем вручную и можем слегка редактировать стиль, не меняя смысла.</p>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="container">
+      <h3 class="section-title"><span class="dot"></span> Галерея</h3>
+      <div class="cards">
+        <div class="card"><img style="width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid #1f2533" src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?q=80&w=1200&auto=format&fit=crop" alt="Фото школы 1"></div>
+        <div class="card"><img style="width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid #1f2533" src="https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=1200&auto=format&fit=crop" alt="Фото школы 2"></div>
+        <div class="card"><img style="width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid #1f2533" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop" alt="Фото школы 3"></div>
+      </div>
+    </section>
+
+    <!-- Правила -->
+    <section id="rules" class="container">
+      <h3 class="section-title"><span class="dot"></span> Правила публикаций</h3>
+      <div class="card" style="padding:16px">
+        <ol>
+          <li>Анонимность — да. Оскорбления, мат, травля — нет.</li>
+          <li>Личные данные (фамилии, телефоны) без согласия — не публикуем.</li>
+          <li>Проверяй факты. Сплетни и клевета — мимо.</li>
+          <li>Фото — свои или с разрешения. По запросу удаляем.</li>
+        </ol>
+        <p class="muted">Отправляя историю, ты соглашаешься с этими правилами.</p>
+      </div>
+    </section>
+
+    <div class="container hr"></div>
+
+    <!-- Контакты -->
+    <section id="contacts" class="container">
+      <h3 class="section-title"><span class="dot"></span> Контакты</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Редакция</h4>
+          <p class="muted">Почта для историй и фото: <a href="mailto:vgv.truth@example.com">vgv.truth@example.com</a></p>
+          <p class="muted">Можно анонимно (создай отдельную почту или не указывай имя).</p>
+        </article>
+        <article class="card">
+          <h4>Как добавить историю</h4>
+          <p class="muted">Напиши короткий заголовок, сам текст (5–10 предложений) и, если есть, ссылку на источник/фото. Мы опубликуем вручную.</p>
+        </article>
+        <article class="card">
+          <h4>Удаление материалов</h4>
+          <p class="muted">Если обнаружил ошибку или хочешь удалить материал с твоим участием — напиши на почту, укажи ссылку на раздел и причину.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p class="muted">© <span id="year"></span> Правда о Visagino Gerosios Vilties progimnazijos. Независимый ученический проект.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
